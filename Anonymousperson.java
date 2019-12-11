@@ -1,12 +1,11 @@
-//Example for anonymous class
-package innerclass;
+package abstraction;
+
 abstract class Anonymousperson1
 {
 	abstract void learn();
 }
-
-
-public class AnonymClass {
+class Anonymousperson 
+{
 	public static void main(String args[])
 	{		
 		Anonymousperson1 p=new Anonymousperson1()
@@ -18,5 +17,4 @@ public class AnonymClass {
 		};
 		p.learn();
 	}
-
 }
