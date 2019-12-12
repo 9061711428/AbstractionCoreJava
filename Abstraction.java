@@ -2,9 +2,9 @@ package abstraction;
 
 
 
-abstract class A  
+abstract class A  // This is an abstract class
 { 
-    abstract void m1(); 
+    abstract void m1(); // this is an abstract method
       
   
     void m2() 
@@ -26,7 +26,7 @@ class B extends A
 } 
   
 // Driver class 
-public class Absr {
+public class AbsrAbstraction {
 
     public static void main(String args[])  
     { 
