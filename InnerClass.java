@@ -11,7 +11,7 @@ class InnerClass
 	}
 	public static void main(String args[])
 	{
-		InnerClass obj=new InnerClass();
+		InnerClass obj=new InnerClass();//invoke object of Innerclass
 		InnerClass.inner1 ob=obj.new inner1();
 		ob.fun();
 	}
