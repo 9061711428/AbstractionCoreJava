@@ -1,6 +1,6 @@
 package abstraction;
 
-abstract class Anonymousperson1
+abstract class Anonymousperson1//Anonymous abstract class
 {
 	abstract void learn();
 }
