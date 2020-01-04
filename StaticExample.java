@@ -1,10 +1,10 @@
 package abstraction;
 
 public class StaticExample {
-	static int count=0;
+	static int count=0;//declare variable as static
 	StaticExample()
 	{
-		count++;
+		count++;//increment value 
 		System.out.println(count);
 		
 	} 
