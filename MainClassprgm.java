@@ -7,7 +7,7 @@ public class MainClassprgm {
 		int a,b;
 		a=sc.nextInt();
 		b=sc.nextInt();
-		Abstractclass obj=new Inheritclass();
+		Abstractclass obj=new Inheritclass();//create object for Abstractclass
 		obj.add(a, b);
 		obj.sub(a, b);
 		sc.close();
