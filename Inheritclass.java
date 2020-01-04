@@ -7,6 +7,6 @@ public class Inheritclass extends Abstractclass {
 	}
 	public void sub(int a,int b)
 	{
-		super.sub(a,b);
+		super.sub(a,b);//call with baseclass
 	}
 }
